@@ -19,7 +19,10 @@ Requires Node `^22.19.0 || >=24` and DSH `>=0.2.0-rc.2 <0.3.0`.
 3. You get a compact, read-only report; use `/checkpoint --json` for machine-readable output.
 
 ```text
-[checkpoint] report — see --json for full data
+[checkpoint] 4 safe point(s) · resume from #8 · open plan after last checkpoint
+  resume: jump to the last safe step
+  fork: available (multiple safe points)
+  restore: session position + workspace diff + unfinished plan
 ```
 
 ## What it reads
